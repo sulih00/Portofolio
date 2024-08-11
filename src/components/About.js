@@ -1,4 +1,5 @@
-import sulih from "../favicon.jpeg";
+import sulih from "../pngtree.png";
+
 export default function About() {
     return (
         <section id="about">
