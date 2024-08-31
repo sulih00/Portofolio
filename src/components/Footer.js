@@ -20,10 +20,10 @@ const Footer = () => {
         <a href="https://twitter.com/sulih0"><FaTwitter /></a>        
       </div>
       <div className="footer_copyright">
-        <small>&copy; All rights reserved.</small>
+        <small>Copyright &copy; Sulih, All rights reserved.</small>
       </div>
     </footer>
-  )
+  ) 
 }
 
 export default Footer

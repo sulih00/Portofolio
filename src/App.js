@@ -1,9 +1,15 @@
 import './App.css';
 import About from "./components/About";
-import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
+import Sertifikat from "./components/Sertifikat";
 import Footer from "./components/Footer";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate
+} from "react-router-dom";
 
 function App() {
   return (
@@ -11,7 +17,7 @@ function App() {
     <Navbar />
     <About />
     <Skills />
-    <Contact />
+    <Sertifikat />
     <Footer />
   </main>
   );
